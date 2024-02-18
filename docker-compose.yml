@@ -1,0 +1,21 @@
+services:
+  weather_api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '3000:3000'
+    env_file:
+      - .development.env
+    volumes:
+      - .:/app
+      - /app/node_modules
+  mysql_db:
+    image: mysql
+    ports:
+      - '3307:3307'
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=weather
+      - MYSQL_TCP_PORT=3306
