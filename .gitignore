@@ -42,6 +42,15 @@ lerna-debug.log*
 # .env.production.local
 # .env.local
 
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
 # temp directory
 .temp
 .tmp

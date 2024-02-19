@@ -1,73 +1,48 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+# Проект: "Weather-App"
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+## Описание
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+Проект "Weather-App" - представляет NestJS приложение, в котором можно узнать погоду по указанному городу.
 
-## Description
+## Функциональность
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Реализованы следующие функции:
 
-## Installation
+1. Настроена инфраструктура и создан сервер на NestJS;
+2. Подключена база данных MySQL, взаимодействие с приложением осуществляется через TypeORM;
+3. Реализована регистрация, авторизация и аутентификация в приложении;
+4. Hеализованы асинхронные GET- и POST-запросы к API;
+5. Проект можно поднять в Docker командой docker-compose up.
+6. Документация сгенерирована с помощью Swagger.
+7. Реализована валидация данных при отправке запросов.
+8. Реализована обработка ошибок при отправке запросов.
+9. Реализована обработка запросов и получение результата к внешнему API.
+10. Используется логирование запросов пользователя с сохранением истории в БД.
 
-```bash
-$ npm install
-```
+## Технологии
 
-## Running the app
+Приложение "Weather-App" разработано с использованием следующих технологий:
 
-```bash
-# development
-$ npm run start
+- NestJS
+- MySQL
+- TypeORM
+- Swagger
+- Docker
+- Rest API
+- JWT
 
-# watch mode
-$ npm run start:dev
+## Дополнительная информация
 
-# production mode
-$ npm run start:prod
-```
+- Приложение может быть запущено командой npm run start.
+- Приложение может быть поднято в Docker командой docker-compose up.
+- Документация приложения в Swagger находится по ссылке [http://localhost:3000/api/docs#/](http://localhost:3000/api/docs#/)
 
-## Test
+## Автор
 
-```bash
-# unit tests
-$ npm run test
+**Петросян Сергей**
 
-# e2e tests
-$ npm run test:e2e
+Приложение "Weather-App" разработан и поддерживается [Петросяном Сергеем](https://github.com/spetrosyan94) - https://github.com/spetrosyan94.
 
-# test coverage
-$ npm run test:cov
-```
+e-mail: [syspect@bk.ru](mailto:syspect@bk.ru)
 
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+telegram: [@solidhard1](https://t.me/SolidHard1) - https://t.me/SolidHard1

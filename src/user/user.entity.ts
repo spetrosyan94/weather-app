@@ -40,7 +40,7 @@ export class User {
     example: '1234567890',
     description: 'Уникальный токен пользователя',
   })
-  @Column({ unique: true })
+  @Column({ unique: true, default: null })
   apiToken: string;
 
   @ApiProperty({
